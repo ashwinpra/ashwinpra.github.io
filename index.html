@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="#about-me">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 </ul>
             </div>
@@ -47,19 +47,90 @@
 
 
     <!--- Adding a banner-->
-    <main class="site-main">
+    <main id="home" class="site-main">
         <section class = "banner-area">
             <div class = "container">
                 <div class = "row">
-                    
-                </div>
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hi,</h3>
+                        <h2 class="title-text text-uppercase">I am Ashwin Prasanth</h2>
+                        <h4 class="title-text">Welcome to my portfolio!</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="images/coding_blue.svg" alt="coding-img" class="img-fluid">
             </div>
         </section>
     </main>
     
     <!--- End of banner-->
 
+    <!--- Adding an about me section-->
+    <section id="about-me" class = "about-me-section">
+        <h1 class="main-title-text text-uppercase">About Me</h1>
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class="col-lg-6 col-md-12 about-me-image">
+                    <img src="images/about_me.svg" alt="about-me-img" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12 about-me-text">
+                    <div class="paragraph py-4 w-75"></div>
+                    <p class="text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo tempore maxime, iure ullam blanditiis temporibus odit impedit excepturi incidunt, beatae repellendus eligendi eius veritatis!
+                    </p>
+                    <p class="text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic voluptates a voluptate aspernatur deserunt nulla dignissimos minima tempore. Mollitia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- End of about me section-->
 
+    <!--- Adding a projects section-->
+    <section id="projects" class="projects-section">
+        <h1 class="main-title-text text-uppercase">Projects</h1>
+        <!---Project 1- Brick Smash -->
+        <div class="container-fluid project-1-area">
+            <div class = "row">
+                <div class="col-lg-6 col-md-12 project-1-text">
+                    <h2 class="title-text text-uppercase">Brick Smash</h2>
+                    <div class="paragraph py-4 w-75"></div>
+                    <p class="text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo tempore maxime, iure ullam blanditiis temporibus odit impedit excepturi incidunt, beatae repellendus eligendi eius veritatis!
+                    </p>
+                    <p class="text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic voluptates a voluptate aspernatur deserunt nulla dignissimos minima tempore. Mollitia.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 project-1-image">
+                    <img src="images/project-game.svg" alt="project-game-img" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <!---End of project 1-->
+
+        <!---Project 2- Winterschool -->
+        <div class="container-fluid project-2-area">
+            <div class = "row">
+                <div class="col-lg-6 col-md-12 project-2-image">
+                    <img src="images/project-game.svg" alt="project-game-img" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12 project-2-text">
+                    <h2 class="title-text text-uppercase">Brick Smash</h2>
+                    <div class="paragraph py-4 w-75"></div>
+                    <p class="text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo tempore maxime, iure ullam blanditiis temporibus odit impedit excepturi incidunt, beatae repellendus eligendi eius veritatis!
+                    </p>
+                    <p class="text-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic voluptates a voluptate aspernatur deserunt nulla dignissimos minima tempore. Mollitia.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!---End of project 2-->
+
+    </section>
+    <!--- End of projects section-->
 
     <!--- Fontawesome JS : go to 15:00 to fix -->
     <script src="https://kit.fontawesome.com/976b548fa5.js" crossorigin="anonymous"></script>

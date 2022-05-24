@@ -1,13 +1,15 @@
 /* import fonts from fonts.css */
 
 
-/* adding navigation */
+/* styling navigation */
 body{
     background-color: #28282B;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2em;
     color: #fff;
 }
+/* start of styling navbar */
+
 .header-area .main-menu .navbar .navbar-brand{
     /* Add a logo-ish image for brand */
     font-size: 1.4em;
@@ -21,16 +23,134 @@ body{
 .header-area .main-menu .nav-item .nav-link{
     font-family: 'Roboto Mono',monospace;
     padding: 0.5rem 1rem;
+   
 }
 
 .header-area .main-menu .navbar-nav .active a{
-    color: #ffffff;
+    color: #6362B1
 }
 .header-area .main-menu .navbar-nav a:hover{
-    color: #ffffff;
+    color: #6362B1
+}
+.header-area .main-menu .navbar-nav a{
+    color: #fff
 }
 
-.banner-area{
-    padding: 10rem;
+/* end of styling navbar */
+
+
+/* styling banner */
+.site-main .banner-area{
+    padding-top: 8rem;
+    padding-bottom: 10rem;
 }
-/* end of navigation */
+.site-main .banner-area .banner-image{
+    padding-right:5rem;
+}
+.site-main .banner-area .site-title h3{
+    color: rgb(234, 231, 231);
+}
+.site-main .banner-area .site-title h2{
+    font-size: 1.89em;
+    font-weight: bold;
+}
+.site-main .banner-area .site-title h4{
+    color: rgb(234, 231, 231);
+}
+.site-main .banner-area .site-title{
+    padding: 4.2rem;
+}
+
+/* end of styling banner
+
+
+/* styling about me */
+
+.about-me-section{
+    padding-top: 7.2rem;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+}
+.about-me-section .main-title-text{
+    color: #6362B1;
+    font-size: 2.5em;
+    text-align:center;
+    font-weight: bold;
+}
+.about-me-section .about-me-image{
+    padding-top: 5rem;
+}
+.about-me-section .about-me-text{
+    padding-top: 2.3rem;
+}
+.about-me-section .about-me-image img{
+    width: 90%;
+}
+.about-me-section .about-me-text .text-content{
+    font-size: 1em;
+    text-align: justify;
+    color: rgb(198, 197, 197);
+}
+
+/* end of styling about me */
+
+
+/* start of styling projects */
+.projects-section{
+    padding-top: 6.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+/* start of styling project 1 */
+
+.projects-section .main-title-text{
+    font-size: 2.5em;
+    color: #6362B1;
+    text-align: center;
+    font-weight: bold;
+}
+.projects-section .project-1-image{
+    width:45%;
+    padding-top:5rem;
+    padding-left: 3rem;
+}
+.projects-section .project-1-text .title-text{
+
+    padding-top: 4rem;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+.projects-section .project-1-text .text-content{
+    font-size: 1em;
+    text-align:justify;
+    color: rgb(198, 197, 197);
+}
+
+/* end of styling project 1 */
+
+/* start of styling project 2 */
+.projects-section .project-2-area{
+    padding-top: 5rem;
+}
+
+.projects-section .project-2-image{
+    width:45%;
+    padding-top:5rem;
+    padding-right: 3rem;
+}
+.projects-section .project-2-text .title-text{
+
+    padding-top: 4rem;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+.projects-section .project-2-text .text-content{
+    font-size: 1em;
+    text-align:justify;
+    color: rgb(198, 197, 197);
+}
+
+/* end of styling project 2 */
