@@ -1,0 +1,36 @@
+/* import fonts from fonts.css */
+
+
+/* adding navigation */
+body{
+    background-color: #28282B;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    color: #fff;
+}
+.header-area .main-menu .navbar .navbar-brand{
+    /* Add a logo-ish image for brand */
+    font-size: 1.4em;
+}
+
+.header-area .main-menu .navbar{
+    font-family: 'Roboto Mono', monospace;
+    padding: 1rem 3rem;
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font-family: 'Roboto Mono',monospace;
+    padding: 0.5rem 1rem;
+}
+
+.header-area .main-menu .navbar-nav .active a{
+    color: #ffffff;
+}
+.header-area .main-menu .navbar-nav a:hover{
+    color: #ffffff;
+}
+
+.banner-area{
+    padding: 10rem;
+}
+/* end of navigation */
