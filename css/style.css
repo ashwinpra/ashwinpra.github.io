@@ -1,6 +1,4 @@
 
-
-
 body{
     background-color: #28282B;
     font-family: 'Roboto Mono', monospace;
@@ -211,6 +209,7 @@ body{
 .contact-section .button-class,.contact-section .email-class, .contact-section .message-class{
     padding-top:2rem;
 }
+/* end of styling contact */
 
 /* start of styling footer */
 .footer-area{
