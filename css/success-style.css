@@ -1,0 +1,215 @@
+
+body{
+    background-color: #28282B;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* start of styling navbar */
+.header-area{
+    background-color: #28282B;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.header-area .navbar .navbar-brand{
+    /* Add a logo-ish image for brand */
+    padding-left:4rem;
+    font-size: 1.4em;
+}
+
+.header-area .navbar{
+    padding: 1rem 3rem;
+}
+
+.header-area .nav-item .nav-link{
+    padding: 0.5rem 1rem;
+}
+
+.header-area .nav .active a{
+    color: #6362B1
+}
+.header-area .nav a{
+    color: #fff
+}
+.header-area .nav a:hover{
+    color: #6362B1
+}
+.header-area .nav-pills{
+    --bs-nav-pills-link-active-color:#6362B1;
+    --bs-nav-pills-link-active-bg:#28282B;
+}
+
+/* end of styling navbar */
+
+
+/* styling banner */
+.site-main .banner-area{
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+}
+.site-main .banner-area .banner-image{
+    padding-right:5rem;
+}
+.site-main .banner-area .site-title h3{
+    color: rgb(234, 231, 231);
+}
+.site-main .banner-area .site-title h2{
+    font-size: 1.89em;
+    font-weight: bold;
+}
+.site-main .banner-area .site-title h4{
+    color: rgb(234, 231, 231);
+}
+.site-main .banner-area .site-title{
+    padding: 4.2rem;
+}
+
+/* end of styling banner
+
+
+/* styling about me */
+
+.about-me-section{
+    padding-top: 7.2rem;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+}
+.about-me-section .main-title-text{
+    color: #6362B1;
+    font-size: 2.5em;
+    text-align:center;
+    font-weight: bold;
+}   
+.about-me-section .about-me-image{
+    padding-top: 7rem;
+}
+.about-me-section .about-me-text{
+    padding-top: 4.3rem;
+}
+.about-me-section .about-me-image img{
+    width: 90%;
+}
+.about-me-section .about-me-text .text-content{
+    font-size: 1em;
+    text-align: justify;
+    color: rgb(198, 197, 197);
+}
+
+/* end of styling about me */
+
+
+/* start of styling projects */
+.projects-section{
+    padding-top: 5.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 10rem;
+}
+
+/* start of styling project 1 */
+
+.projects-section .main-title-text{
+    font-size: 2.5em;
+    color: #6362B1;
+    text-align: center;
+    font-weight: bold;
+}
+.projects-section .project-1-image{
+    width:45%;
+    padding-top:5rem;
+    padding-left: 3rem;
+}
+.projects-section .project-1-text .title-text{
+    padding-top: 7rem;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+.projects-section .project-1-text .text-content{
+    font-size: 1em;
+    text-align:justify;
+    color: rgb(198, 197, 197);
+}
+
+/* end of styling project 1 */
+
+/* start of styling project 2 */
+.projects-section .project-2-area{
+    padding-top: 5rem;
+}
+
+.projects-section .project-2-image{
+    width:45%;
+    padding-top:5rem;
+    padding-right: 3rem;
+}
+.projects-section .project-2-text .title-text{
+
+    padding-top: 4rem;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+.projects-section .project-2-text .text-content{
+    font-size: 1em;
+    text-align:justify;
+    color: rgb(198, 197, 197);
+}
+
+/* end of styling project 2 */
+/* end of styling projects */
+
+/* start of styling contact */
+.contact-section{
+    padding-top: 5.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 10rem;
+}
+
+.contact-section .main-title-text{
+    font-size: 2.5em;
+    color: #6362B1;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-section .success-msg{
+    padding-top:5rem;
+    text-align: center;
+}
+.contact-section .contact-image{
+    padding-top:4rem;
+    padding-left: 12rem;
+}
+.contact-section .contact-image img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+
+/* end of styling contact */
+
+/* start of styling footer */
+.footer-area{
+    background-color: #28282B;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.footer-area .footer  a{
+    color: rgb(198, 197, 197);
+}
+.footer-area .footer  a:hover{
+    color: #6362B1;
+}
+.footer-area .footer .footer-text a:hover{
+    color: #6362B1;
+}
+/* end of styling footer */
