@@ -140,17 +140,22 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 contact-form">
                       <form action="https://formsubmit.co/1710d88314bde4b0ab683aa4bc0004f2" method="POST">
+                          <!--- Honeypot (to prevent spammers) -->
+                            <input type="text" name="_gotcha" style="display:none;">
+                            <!--- Disable captcha -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://ashwinpra.github.io/success.html">
                         <div class="mb-3 name-class">
                             <label for="name-input" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name-input" name="name">
+                            <input type="text" class="form-control" id="name-input" name="Name">
                           </div>
                       <div class="mb-3 email-class">
                         <label for="email-input" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email-input" name="email">
+                        <input type="email" class="form-control" id="email-input" name="Email">
                       </div>
                       <div class="mb-3 message-class">
                         <label for="message-input" class="form-label">Message</label>
-                        <textarea class="form-control" id="message-input" name="message" rows="3"></textarea>
+                        <textarea class="form-control" id="message-input" name="Message" rows="3"></textarea>
                       </div>
                       <div class="button-class">
                       <button type="submit" class="btn btn-primary">Submit</button>
