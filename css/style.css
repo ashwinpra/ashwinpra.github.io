@@ -18,6 +18,7 @@ body{
 }
 .header-area .navbar .navbar-brand{
     /* Add a logo-ish image for brand */
+    padding-left:4rem;
     font-size: 1.4em;
 }
 

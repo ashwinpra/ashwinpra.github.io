@@ -1,4 +1,3 @@
-// make contact form responsive
 
 
 // making sticky navbar
@@ -13,3 +12,5 @@ function ResizeWindow( )
 	} );
 }
 // end of sticky navbar
+
+// make contact form responsive
