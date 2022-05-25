@@ -207,6 +207,7 @@ body{
 }
 
 .contact-section .button-class,.contact-section .email-class, .contact-section .message-class{
+    padding-left: 5rem;
     padding-top:2rem;
 }
 /* end of styling contact */
