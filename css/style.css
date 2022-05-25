@@ -1,13 +1,13 @@
-/* import fonts from fonts.css */
 
 
-/* styling navigation */
+
 body{
     background-color: #28282B;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.2em;
     color: #fff;
 }
+
 /* start of styling navbar */
 .header-area{
     background-color: #28282B;
@@ -18,33 +18,31 @@ body{
     left: 0;
     z-index: 999;
 }
-.header-area .main-menu .navbar .navbar-brand{
+.header-area .navbar .navbar-brand{
     /* Add a logo-ish image for brand */
     font-size: 1.4em;
 }
 
-.header-area .main-menu .navbar{
-    font-family: 'Roboto Mono', monospace;
+.header-area .navbar{
     padding: 1rem 3rem;
 }
 
-.header-area .main-menu .nav-item .nav-link{
-    font-family: 'Roboto Mono',monospace;
+.header-area .nav-item .nav-link{
     padding: 0.5rem 1rem;
-   
 }
 
-.header-area .main-menu .navbar-nav .active a{
+.header-area .nav .active a{
     color: #6362B1
 }
-.header-area .main-menu .navbar-nav a:hover{
-    color: #6362B1
-}
-.header-area .main-menu .navbar-toggler a:active{
-    color: #6362B1
-}
-.header-area .main-menu .navbar-nav a{
+.header-area .nav a{
     color: #fff
+}
+.header-area .nav a:hover{
+    color: #6362B1
+}
+.header-area .nav-pills{
+    --bs-nav-pills-link-active-color:#6362B1;
+    --bs-nav-pills-link-active-bg:#28282B;
 }
 
 /* end of styling navbar */
@@ -167,9 +165,6 @@ body{
 }
 
 /* end of styling project 2 */
-
-
-
 /* end of styling projects */
 
 /* start of styling contact */
@@ -194,11 +189,27 @@ body{
     max-width: 80%;
     max-height: 80%;
 }
-.contact-section .contact-text .text-content{
-    padding-top: 2rem;
-    font-size: 1em;
-    text-align:justify;
-    color: rgb(198, 197, 197);
+.contact-section .contact-form{
+    padding-top: 5rem;
+}
+
+.contact-section .contact-form .form-label{
+    font-size:1rem;
+}
+
+.contact-section .contact-form .form-control{
+    background-color: #28282B;
+    color: rgb(236, 234, 234);
+    font-size: 1rem;
+    border-color: #6362B1;
+}
+.contact-section .contact-form .button-class .btn{
+    background-color: #6362B1;
+    border-color: #6362B1;  
+}
+
+.contact-section .button-class,.contact-section .email-class, .contact-section .message-class{
+    padding-top:2rem;
 }
 
 /* start of styling footer */
@@ -217,3 +228,4 @@ body{
 .footer-area .footer .footer-text a:hover{
     color: #6362B1;
 }
+/* end of styling footer */

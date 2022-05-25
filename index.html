@@ -19,36 +19,32 @@
     <!--- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+
+<body data-spy="scroll" data-target="#navbar-top">
+
     <!--- Adding a navbar-->
-    <header class = "header-area">
-        <div class = "main-menu">
-        <nav id="header-nav"class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-            <a class="navbar-brand js-scroll" href="#">Ashwin Prasanth</a>
-            <button class="navbar-toggler" type="button" data-bs-spy="scroll" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link js-scroll" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#contact">Contact</a>
-                    </li>
-                    </ul>
-            </div>
-            </div>
-        </nav>
-        </div>
-    </header>
+    <header class="header-area">
+    <nav id="navbar-top" class="navbar navbar-dark px-3 fixed-top">
+        <a class="navbar-brand" href="#">Ashwin Prasanth</a>
+        
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
     <!--- End of navbar-->
 
 
@@ -142,15 +138,20 @@
         <h1 class="main-title-text text-uppercase">Contact</h1>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-12 contact-text">
-                    <div class="paragraph py-4 w-75"></div>
-                    <p class="text-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo tempore maxime, iure ullam blanditiis temporibus odit impedit excepturi incidunt, beatae repellendus eligendi eius veritatis!
-                    </p>
-                    <p class="text-content">
-                        
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic voluptates a voluptate aspernatur deserunt nulla dignissimos minima tempore. Mollitia.
-                    </p>
+                <div class="col-lg-6 col-md-12 contact-form">
+                      <form>
+                      <div class="mb-3 email-class">
+                        <label for="email-input" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email-input">
+                      </div>
+                      <div class="mb-3 message-class">
+                        <label for="message-input" class="form-label">Message</label>
+                        <textarea class="form-control" id="message-input" rows="3"></textarea>
+                      </div>
+                      <div class="button-class">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    </form>      
                 </div>
                 <div class="col-lg-6 col-md-12 contact-image">
                     <img src="images/contact.svg" alt="contact-img" class="img-fluid">
@@ -178,7 +179,23 @@
       </div>
       
     <!--- End of footer section-->
-      
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    
+    <script>
+        window.addEventListener( "resize", ResizeWindow );
+
+        function ResizeWindow( )
+        {
+            var dataSpyList = [].slice.call( document.querySelectorAll( '[data-spy="scroll"]' ) );
+            
+            dataSpyList.forEach( function ( dataSpyElement )
+            {
+                bootstrap.ScrollSpy.getInstance( dataSpyElement ).refresh( );
+            } );
+        }
+    </script>
     <!--- JQuery JS -->
     <script src="js/jquery.min.js"></script>
     <!--- Bootstrap JS -->
