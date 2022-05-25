@@ -40,6 +40,9 @@ body{
 .header-area .main-menu .navbar-nav a:hover{
     color: #6362B1
 }
+.header-area .main-menu .navbar-toggler a:active{
+    color: #6362B1
+}
 .header-area .main-menu .navbar-nav a{
     color: #fff
 }

@@ -1,0 +1,46 @@
+
+/* if the viewport is 340px or less  */
+@media only screen and (max-width:340px){
+    .header-area .main-menu .navbar, .header-area .main-menu .navbar-brand, .about-me-section, .projects-section, .contact-section{
+        padding:1.5%;
+    }
+    .header-area{
+        background-color: #28282B;
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    .site-main .banner-area .banner-image{
+        width: 100%;
+        height: 100%;
+        padding-left:3rem;
+    }
+    .about-me-section .about-me-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .projects-section{
+        padding-top:5rem;
+    }
+    .projects-section .project-1-area .project-1-image{
+        width: 300%;
+        height: 300%;
+    }
+    .projects-section .project-2-area .project-2-image{
+        width: 300%;
+        height: 300%;
+        padding-left: 3rem;
+    }
+    .contact-section{
+        padding-top:5rem;
+    }
+    .contact-section .contact-image{
+        width: 250%;
+        height: 250%;
+        padding-left:4rem;
+    }
+}   
