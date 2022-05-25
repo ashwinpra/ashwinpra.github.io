@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--- add logo for name, add scrollspy effect for navbar, change color of selected tab, add contact form -->
+    <!--- make contact form responsive, add text, add custom scrollbar-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,8 +25,8 @@
     <!--- Adding a navbar-->
     <header class="header-area">
     <nav id="navbar-top" class="navbar navbar-dark px-3 fixed-top">
-        <a class="navbar-brand" href="#">Ashwin Prasanth</a>
-        
+        <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.youtube.com/watch?v=yKQ_sQKBASM" target="_blank">Ashwin Prasanth</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
                 <a class="nav-link" href="#home">Home</a>
@@ -36,13 +36,14 @@
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>   
             </li>
             
             <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
+        </div>
     </nav>
 </header>
     <!--- End of navbar-->
@@ -77,10 +78,9 @@
                 <div class="col-lg-6 col-md-12 about-me-text">
                     <div class="paragraph py-4 w-75"></div>
                     <p class="text-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo tempore maxime, iure ullam blanditiis temporibus odit impedit excepturi incidunt, beatae repellendus eligendi eius veritatis!
-                    </p>
+                        I am a first year undergraduate student of the Department of Computer Science and Engineering, enrolled in it's Dual Degree (B.Tech.+ M.Tech. in CSE) course, at the Indian Institute of Technology, Kharagpur.
                     <p class="text-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic voluptates a voluptate aspernatur deserunt nulla dignissimos minima tempore. Mollitia.
+                        My interests lie in the field of Machine Learning and Artificial Intelligence, Software Development, Web Development, and Competitive Programming. Moreover, I also enjoy playing the keyboard :)
                     </p>
                 </div>
             </div>
@@ -98,10 +98,10 @@
                     <h2 class="title-text text-uppercase">Brick Smash</h2>
                     <div class="paragraph py-4 w-75"></div>
                     <p class="text-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo tempore maxime, iure ullam blanditiis temporibus odit impedit excepturi incidunt, beatae repellendus eligendi eius veritatis!
+                        <a href="https://github.com/ashwinpra/Brick-Smash" target="_blank" style="color: #6362B1">This</a> was a simple game I made as a part of <a href="https://www.facebook.com/CodeClub.IITKGP" target="_blank" style="color: #6362B1">Code Club</a>, IIT Kharagpur, using Python's "Pygame" library.
                     </p>
                     <p class="text-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic voluptates a voluptate aspernatur deserunt nulla dignissimos minima tempore. Mollitia.
+                        This project gave me insight on the working of the Pygame library, and helped in strengthening my logical thinking skills.
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-12 project-1-image">
@@ -121,10 +121,10 @@
                     <h2 class="title-text text-uppercase">Winterschool Team Project</h2>
                     <div class="paragraph py-4 w-75"></div>
                     <p class="text-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos illo tempore maxime, iure ullam blanditiis temporibus odit impedit excepturi incidunt, beatae repellendus eligendi eius veritatis!
+                        <a href="https://github.com/C-12-14/WinterSchool-Team-Project" target="_blank" style="color:#6362B1">This project</a> was done as the final task for the <a href="https://winterschoolai.robotix.in/" target="_blank" style="color:#6362B1">Winterschool 2022 program</a>, and it involved the implementation of various path-planning algorithms like BFS, DFS, Dijkstra and A* on different mazes and maps. Moreover, it also included image recognition for detecting different road signs.
                     </p>
                     <p class="text-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic voluptates a voluptate aspernatur deserunt nulla dignissimos minima tempore. Mollitia.
+                        This project assisted me in gaining a better understanding of Computer
                     </p>
                 </div>
             </div>
@@ -139,7 +139,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-12 contact-form">
-                      <form>
+                      <form action="https://formsubmit.co/ashprasanth2003@gmail.com" method="POST">
+                        <div class="mb-3 name-class">
+                            <label for="name-input" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name-input">
+                          </div>
                       <div class="mb-3 email-class">
                         <label for="email-input" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email-input">
@@ -177,7 +181,6 @@
           </ul>
         </footer>
       </div>
-      
     <!--- End of footer section-->
     
     
