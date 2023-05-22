@@ -94,8 +94,9 @@ body{
 }
 
 .about-me-section .about-me-text .text-content{
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: justify;
+    padding-bottom: 1rem;
 }
 
 /* end of styling about me */
@@ -106,10 +107,9 @@ body{
     padding-top: 5.2rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
-/* start of styling project 1 */
 
 .projects-section .main-title-text{
     font-size: 2.5em;
@@ -117,49 +117,27 @@ body{
     text-align: center;
     font-weight: bold;
 }
-.projects-section .project-1-image{
-    width:45%;
-    padding-top:5rem;
-    padding-left: 3rem;
-}
-.projects-section .project-1-text .title-text{
-    padding-top: 7rem;
-    font-size: 1.8em;
-    text-align: center;
-    font-weight: bold;
-}
-.projects-section .project-1-text .text-content{
-    font-size: 1em;
-    text-align:justify;
-    color: rgb(198, 197, 197);
-}
 
-/* end of styling project 1 */
-
-/* start of styling project 2 */
-.projects-section .project-2-area{
-    padding-top: 5rem;
-}
-
-.projects-section .project-2-image{
-    width:45%;
-    padding-top:5rem;
-    padding-right: 3rem;
-}
-.projects-section .project-2-text .title-text{
-
+.projects-section .project-area {
     padding-top: 4rem;
-    font-size: 1.8em;
-    text-align: center;
-    font-weight: bold;
-}
-.projects-section .project-2-text .text-content{
-    font-size: 1em;
-    text-align:justify;
-    color: rgb(198, 197, 197);
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-/* end of styling project 2 */
+.projects-section .title-text{
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.projects-section .project-area .text-content{
+    font-size: 1em;
+    text-align:left;
+}
+
+.projects
+
+
 /* end of styling projects */
 
 /* start of styling footer */
