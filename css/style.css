@@ -115,10 +115,9 @@ body{
     font-size: 2.5em;
     color: #6362B1;
     text-align: center;
-    font-weight: bold;
 }
 
-.projects-section .project-area {
+.projects-section .project-area{
     padding-top: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -126,8 +125,8 @@ body{
 
 .projects-section .title-text{
     font-size: 1.4em;
+    color: #6362B1;
     text-align: left;
-    font-weight: bold;
     padding-bottom: 1rem;
 }
 .projects-section .project-area .text-content{
@@ -143,8 +142,11 @@ body{
 /* start of styling footer */
 .footer-area{
     background-color: #000;
-    padding-left: 3rem;
-    padding-right: 3rem;
+}
+
+.footer-area .footer{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .footer-area .footer  a{
